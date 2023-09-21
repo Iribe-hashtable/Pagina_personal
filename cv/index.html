@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" />
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <header class="navegation">
+        <nav>
+            <div class="dropdown">
+                <button id="main-menu">
+                    <span class="hamburguesa"></span>
+                    <span class="hamburguesa"></span>
+                    <span class="hamburguesa"></span>
+                </button>
+                <div class="dropdown-child">
+                    <a id="to-acerca-de" class="navegation-link">Acerca de mi</a>
+                    <a id="to-lenguajes" class="navegation-link">Habilidades</a>
+                    <a id="to-proyectos" class="navegation-link">Proyectos</a>
+                    <a id="to-contacto" class="navegation-link">Contacto</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="tamaño" id="banner">
+            <div>
+                <h1 id="welcome-title">Acerca de mi</h1>
+            </div>
+            <div class="centrado columna">
+                <div class="personal-information">
+                    <img id="my-photo" src="img/profile/yo.jpg" alt="">
+                    <p id="my-information">Mi nombre es Ramón Alejandro Iribe Cota, tengo 21 años de edad y nací en la ciudad de Hermosillo, Sonora. He residido en mi ciudad natal a lo largo de toda mi vida. Actualmente, me encuentro matriculado en la Universidad de Sonora, donde estoy persiguiendo una licenciatura en Ingeniería en Sistemas de Información. Actualmente, me encuentro en el noveno semestre de mi programa académico, el cual estoy cursando de manera satisfactoria.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="title-of-section">
+            <h1 id="lenguajes-title">
+                Habilidades
+            </h1>
+        </section>
+        <section class="tamaño">
+            <div>
+                <div>
+                    <p>Los presentes lenguajes utilizados al momento de desarrollarme en esta carrera universitaria </p>
+                </div>
+                <div class="centrado columna">
+                    <div class="lenguajes">
+                        <div class="lenguajes-list">
+                            <ul class="no-list">
+                                <li class="languaje-icon-rotate"><img class="languaje-icon border-radius-img" src="img/lenguaje/html-5.png">HTML</li>
+                                <li class="languaje-icon-rotate"><img class="languaje-icon border-radius-img" src="img/lenguaje/java.png">Java</li>
+                                <li class="languaje-icon-rotate"><img class="languaje-icon border-radius-img" src="img/lenguaje/js.png">JavaScript</li>
+                            </ul>
+                        </div>
+                        <div class="lenguajes-list">
+                            <ul class="no-list">
+                                <li class="languaje-icon-rotate"><img class="languaje-icon border-radius-img" src="img/lenguaje/piton.png">Python</li>
+                                <li class="languaje-icon-rotate"><img class="languaje-icon border-radius-img" src="img/lenguaje/servidor-sql.png">SQL</li>
+                                <li class="languaje-icon-rotate"><img class="languaje-icon border-radius-img" src="img/lenguaje/typescript.png">TypeScript</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="title-of-section">
+            <h1 id="proyectos-title">
+                Proyectos
+            </h1>
+        </section>
+        <section class="tamaño">
+            <div>
+                <div class="margen-abajo">
+                    <div>
+                        <h2 class="border">Buscador de frases</h2>
+                    </div>
+                    <div>
+                        <p>Facilita a los usuarios la búsqueda de citas célebres utilizando palabras clave. Estas citas pueden ser utilizadas en redes sociales, presentaciones o para identificar su fuente original. Python se emplea como lenguaje de programación para acelerar este proceso de búsqueda de información.</p>
+                        <a class="no-decoration" target="_blank" href="drive.google.com/file/d/1Bx0RtzVLEaxYdTb2NiqqHFjVkm3-p9Pn/view?usp=sharing">
+                            <button class="see-more-button">
+                                <div class="see-more-text">
+                                    <p>Ver más</p>
+                                </div>
+                                <div>
+                                    <svg class="flecha" viewBox="0 0 24 24">
+                                        <path d="m4 16 8-8 8 8"></path>
+                                    </svg>
+                                </div>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="margen-abajo">
+                    <div>
+                        <h2 class="border">E-commerce</h2>
+                    </div>
+                    <div>
+                        <p>Un E-commerce sobre la venta de ropa que permite publicar productos y calcular sus precios,
+                            asi como iniciar sesion y registrarse como usuario.
+                            El E-commerce fue desarrollado con HTML, CSS y Bootstrap, montando la pagina con Python
+                            Flask.</p>
+                        <a class="no-decoration" target="_blank" href="https://github.com/AngelLaines/Ecommerce">
+                            <button class="see-more-button">
+                                <div class="see-more-text">
+                                    <p>Ver más</p>
+                                </div>
+                                <div>
+                                    <svg class="flecha" viewBox="0 0 24 24">
+                                        <path d="m4 16 8-8 8 8"></path>
+                                    </svg>
+                                </div>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="margen-abajo">
+                    <div>
+                        <h2 class="border">Base de datos escolar</h2>
+                    </div>
+                    <div>
+                        <p>Un sistema de escritorio desarrollado para una tienda de refacciones y venta de lavadoras
+                            para guardar las ventas que realiza. El sistema fue desarrollado en C# y uso como base de
+                            datos MySQL.</p>
+                        <a class="no-decoration" target="_blank" href="drive.google.com/file/d/1pPLZ1Vd1h2xEriTldUPtdBzxaPRiP7Iy/view?usp=sharing">
+                            <button class="see-more-button">
+                                <div class="see-more-text">
+                                    <p>Ver más</p>
+                                </div>
+                                <div>
+                                    <svg class="flecha" viewBox="0 0 24 24">
+                                        <path d="m4 16 8-8 8 8"></path>
+                                    </svg>
+                                </div>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="margen-abajo">
+                    <div>
+                        <h2 class="border">Juego del gato</h2>
+                    </div>
+                    <div>
+                        <p>El juego clásico del gato, desarrollado en Python.
+                        Permite jugar de forma interactiva con la computadora o con toro jugador.</p>
+                        <a class="no-decoration" target="_blank" href="https://github.com/AngelLaines?tab=repositories">
+                            <button class="see-more-button">
+                                <div class="see-more-text">
+                                    <p>Ver más</p>
+                                </div>
+                                <div>
+                                    <svg class="flecha" viewBox="0 0 24 24">
+                                        <path d="m4 16 8-8 8 8"></path>
+                                    </svg>
+                                </div>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h1 id="contacto-title" class="f-centrado">Contacto</h1>
+        </div>
+        <div class="contacto">
+            <div class="form-div footer-div-margin-right">
+                <h2 class="form-title">Envia un correo</h2>
+                <form>
+                    <input class="form-input-size form-margin form-font form-border" type="text" name="" id="email"
+                        placeholder=" Email"><br>
+                    <input class="form-input-size form-margin form-font form-border" type="text" name="" id="subject"
+                        placeholder=" Asunto"><br>
+                    <textarea class="form-textarea-size form-margin form-font form-border" name="" id="message"
+                        placeholder=" Mensaje" rows="4"></textarea><br>
+                    <button id="send">Enviar</button>
+                </form>
+            </div>
+            <div class=" social-div footer-div-margin-left">
+                <div>
+                    <h2 class="form-title">Mis redes</h2>
+                </div>
+                <div class="redes">
+                    <div class="social-media-icons">
+                        <a href="https://www.facebook.com/Angel.Laines.Ei?locale=es_LA" target="_blank"><i class="circular-icon fab fa-facebook"></i></a><p>Alejandro Iribe</p>
+                    </div>
+                    <div class="social-media-icons">
+                        <a href="https://github.com/Iribe-hashtable" target="_blank"><i class="circular-icon fab fa-github"></i></a><p>Iribe-hashtable</p>
+                    </div>
+                    <div class="social-media-icons">
+                        <a href="https://twitter.com/AlejandroIribe4" target="_blank"><i class="circular-icon fab fa-x-twitter"></i></a><p>@alejandroiribe4</p>
+                    </div>
+                    <div class="social-media-icons">
+                        <i class="circular-icon fab fa-google"></i><p>ramoniribe2@gmail.com</p>
+                    </div>
+                    <div class="social-media-icons">
+                        <a href="https://www.linkedin.com/in/alejandro-iribe-b44294197/" target="_blank"><i class="circular-icon fab fa-linkedin"></i></a><p>Ramon Alejandro Iribe Cota</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="copy">Portafolio &copy; 2023</p>
+    </footer>
+    <button id="btn-ir-arriba">
+        <svg viewBox="0 0 24 24">
+            <path d="m4 16 8-8 8 8"></path>
+        </svg>
+    </button>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

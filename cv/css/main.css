@@ -1,5 +1,5 @@
 :root {
-    --SectionTitleColor: #3641da;
+    --SectionTitleColor: #3696da;
     --SectionTitleSize: 1.5rem;
     --WelcomeTitletextSize: 2rem;
     --PhotoBorderRadius: 10%;
@@ -7,12 +7,12 @@
     --TextInputSize: 1.6rem;
     --InputBorderRadius: 20px;
     --TextWeight: 600;
-    --BoxShadowImage: -5px 5px 5px rgba(19, 18, 18, 0.5);
+    
 }
 
 @media screen and (max-width:590px) {
     :root {
-        --SectionTitleSize: 1.3rem;
+        --SectionTitleSize: 1.4rem;
         --WelcomeTitletextSize: 1.8rem;
         --TextInputSize: 1rem;
     }
@@ -51,7 +51,7 @@ main {
     margin: 0 auto; 
     padding: 40px;
     color: black;
-    text-shadow: -5px 4px 5px rgba(19, 18, 18, 0.4);
+    
 }
 
 #banner {
@@ -78,6 +78,7 @@ main {
     border-radius: var(--PhotoBorderRadius);
     margin: 10px;
     box-shadow: var(--BoxShadowImage);
+    
 }
 
 #my-information {

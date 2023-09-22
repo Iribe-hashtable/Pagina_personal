@@ -1,5 +1,5 @@
 :root {
-    --BGColor: #1d72c7;
+    --Color: #1d97c7;
     --TextInputSize: 1.2rem;
     --InputBorderRadius: 15px;
     --TextWeight: 600;
@@ -15,7 +15,7 @@ footer {
     font-weight: var(--TextWeight);
     display: flex;
     flex-direction: column;
-    background-color: var(--BGColor);
+    background-color: var(--Color);
 }
 
 .f-centrado {
@@ -80,15 +80,15 @@ footer {
 }
 
 .fa-x-twitter {
-    background: #000000;
+    background: #0a0a0a;
 }
 
 .fa-google {
-    background: #f85a5a;
+    background: #dc4545;
 }
 
 .fa-linkedin {
-    background: #2a66e9;
+    background: #2761de;
 }
 
 .redes {

@@ -1,9 +1,9 @@
 :root {
-    --ScrollToTopButtonColor: #3a92f6;
-    --ScrollToTopButtonHoverColor: #1871c4;
+    --ScrollToTopButtonColor: #3a8cf6;
+    --ScrollToTopButtonHoverColor: #2487d2;
     --ScrollToBottomSVGColor: #050303;
     --BackGroundColor: #f5f5f5;
-    --FontColor: #120f0f;
+    --FontColor: #fafafa;
 }
 
 * {
@@ -16,9 +16,11 @@
 body {
     background-color: var(--BackGroundColor);
     font-family: 'Arial';
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 400;
     color: var(--FontColor);
+    text-align: center;
+
 }
 
 @media screen and (max-width: 590px) {
